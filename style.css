@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/239/747/591/earth-the-world-earth-carbon-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 45%;
+    color: red;
+}
+
+.arasaka-img{
+    height: 100px;
+    margin-left: 35%;
+}
+
+.head-text{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+main {
+    margin-top: 5%;
+}
+
+.head-subtext{
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.main-text{
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%; 
+    text-shadow: -1px 1px 1px #1a1a1aad;
+}
+
+.main-button{
+    font-size: 30px;
+    text-align: center;
+    margin-right: 36%;
+    margin-left: 36%;
+    color: #ff0303;
+    border-color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5%;
+    background-color: #00000093; 
+    border-radius: 15%; 
+    cursor: pointer; 
+} 
+
+a{
+    text-decoration: none; 
+    color: #ff0303;
+} 
+
+footer{
+    text-align: center; 
+    padding-top: 7%; 
+    margin-left: -5%;
+}
+
+@media (max-width:768px) {
+    .arasaka-img {
+        margin-left: 17%;
+        height: 70px;
+    }
+
+    main {
+        margin-top: 10%;
+    }
+
+    .main-text {
+        margin-left: 8%; 
+        font-size: 30px;
+    }
+
+    .head-text{
+        margin-left: -2%; 
+    }
+
+    .main-button{
+        margin-left: 22%;
+        font-size: 25px;
+        width: 250px; 
+    }  
+
+    footer{
+        padding-top: 5%; 
+        padding-bottom: 5%;
+        font-size: 25px; 
+    }
+}
